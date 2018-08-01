@@ -12,7 +12,7 @@ if len(original) > 0 and original.isalpha(): # if the character length of the va
   
   new_word = new_word[1:len(new_word)] # new variable 'new_word' is equal to new_word from letter position 1 (which is the 2nd letter as letter positions start at 0) so the word starts from the 2nd letter up to the rest of the length of the new word, can also do new_word = new_word[1:4] and this would do from the second letter to the 5th letter but in this case we only want to get rid of the first letter and keep the remaining letters.
   
-  print (new_word) # as the variable 'new_word' is a combonation of variables, word + first + pyg this will print the word you type but move the first letter to the end so 'hello' will be 'elloh' and then it'll add ay on the end so will  be 'ellohay' which is then translated to pig latin.
+  print("This word translated to Pyg Latin is: " + new_word) # as the variable 'new_word' is a combonation of variables, word + first + pyg this will print the word you type but move the first letter to the end so 'hello' will be 'elloh' and then it'll add ay on the end so will  be 'ellohay' which is then translated to pig latin.
   
 else: #otherwise
   
