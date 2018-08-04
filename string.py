@@ -6,7 +6,7 @@ data.index('|')
 
 #variable 'product' is equal to variable 'data', [: is saying anything before the colon you want up to data.index('|')] so this will go "'Playstation 4 Pro' |"
 product = data[:data.index('|')]
-price = data[0:26]
+price = data[19:26]
 condition = data[27:]
 
 print (product, price, condition)
@@ -54,8 +54,9 @@ print(greeting[0:-1:2])
 
 hello = "Hello"
 
-# This will reverse the string by doing [::-1]
-print(hello[::-1])
+# This will reverse the string by doing [::-1], this will print hello backwards to olleh
+print(hello[::-1]) 
+
 
 
 
